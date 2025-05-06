@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  padding: 20px;
+  margin: 50px;
+  padding: 70px;
   background-color: #000;
   color: #fff;
   font-family: monospace;
@@ -9,6 +9,19 @@ body {
 .container {
   max-width: 600px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  border-radius: 10px;
+  box-shadow: #0ff 0px 0px 10px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  border: 1px solid rgba(13, 221, 228, 0.893);
+  box-shadow: 0 4px 8px rgba(5, 225, 225, 0.6);
+  padding: 30px 20px;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .header {
@@ -67,14 +80,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background: #111;
-  margin-bottom: 5px;
+  margin: 10px;
   border-left: 3px solid #0ff;
 }
 
 .task-controls {
   display: flex;
   gap: 10px;
+  padding: 0 10px;
 }
 
 .task-button {
